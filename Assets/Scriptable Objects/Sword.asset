@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d95db7d10d4d245a80e00166b45e43, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 0}
+  weight: 0
+  type: 1
+  description: 'sadasda
+
+'
+  gameObject: {fileID: 91654163400369049, guid: 88c2716ac3ba52443a4156a5f3026c3b, type: 3}
+  weaponType: 0
+  interaction: 1
+  damage: 50
+  staminaCost: 15
+  criticalChance: 0
+  criticalMultiplier: 0
+  idleAnimation: oh_idle
+  attackAnimations:
+  - Sword_Attack_Ld
+  - Sword_Attack_R
+  - Sword_Attack_Sp_R
+  - Sword_Attack_Ld_fast
+  - sword_slash1
+  - sword_slash2
+  comboAnimations:
+  - Sword_Attack_R_Whirlwind_fast
+  - Sword_Attack_Sp_RRound_fast
+  - Sword_Attack_Ld
+  attackSounds: []
+  swingSounds: []
