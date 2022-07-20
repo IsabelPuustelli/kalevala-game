@@ -10,4 +10,4 @@
 - Combat system
 - Skill system
 - Save system
-- Inventory
+- Implement inventory
